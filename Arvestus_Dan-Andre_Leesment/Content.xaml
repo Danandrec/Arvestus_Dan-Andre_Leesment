@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Arvestus_Dan_Andre_Leesment.Content"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Arvestus_Dan_Andre_Leesment"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Pivot>
+            <PivotItem Header="Item1">
+                <StackPanel>
+                    <TextBlock  Text="Content1"></TextBlock>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem Header="Item2">
+                <StackPanel>
+                    <TextBlock Text="Content2"></TextBlock>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem Header="Item3">
+                <StackPanel>
+                    <TextBlock Text="Content3"></TextBlock>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
