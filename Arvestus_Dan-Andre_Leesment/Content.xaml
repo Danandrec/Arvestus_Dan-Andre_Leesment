@@ -15,22 +15,41 @@
         </Grid.ColumnDefinitions>
 
         <Pivot>
-            <PivotItem Header="Item1">
-                <StackPanel>
-                    <TextBlock  Text="Content1"></TextBlock>
-                </StackPanel>
+            <PivotItem>
+                <PivotItem.Header>
+                    <StackPanel>
+                        <TextBlock HorizontalAlignment="Center" Text="&#xE110;" FontFamily="Segoe MDL2 Assets"></TextBlock>
+                        <TextBlock Text="Item 1"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <TextBlock>Content1</TextBlock>
             </PivotItem>
-
-            <PivotItem Header="Item2">
-                <StackPanel>
-                    <TextBlock Text="Content2"></TextBlock>
-                </StackPanel>
+            <PivotItem>
+                <PivotItem.Header>
+                    <StackPanel>
+                        <TextBlock HorizontalAlignment="Center" Text="&#xE107;" FontFamily="Segoe MDL2 Assets"></TextBlock>
+                        <TextBlock Text="Item 2"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <TextBlock>Content2</TextBlock>
             </PivotItem>
-
-            <PivotItem Header="Item3">
-                <StackPanel>
-                    <TextBlock Text="Content3"></TextBlock>
-                </StackPanel>
+            <PivotItem>
+                <PivotItem.Header>
+                    <StackPanel>
+                        <TextBlock HorizontalAlignment="Center" Text="&#xE109;" FontFamily="Segoe MDL2 Assets"></TextBlock>
+                        <TextBlock Text="Item 3"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <TextBlock>Content3</TextBlock>
+            </PivotItem>
+            <PivotItem>
+                <PivotItem.Header>
+                    <StackPanel>
+                        <TextBlock HorizontalAlignment="Center" Text="&#xE107;" FontFamily="Segoe MDL2 Assets"></TextBlock>
+                        <TextBlock Text="Item 4"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <TextBlock>Content4</TextBlock>
             </PivotItem>
         </Pivot>
     </Grid>
